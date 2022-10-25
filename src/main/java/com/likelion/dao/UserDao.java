@@ -47,6 +47,6 @@ public class UserDao {
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         UserDao userDao = new UserDao();
-        userDao.add(new User("4","최승호","password"));
+        userDao.add(new User("1","김진아","password"));
     }
 }
